@@ -1,5 +1,3 @@
-let
-
 function onLeftOperandChange(value) {
   console.log('onLeftOperandChange', value)
 }
