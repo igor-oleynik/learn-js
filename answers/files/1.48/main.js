@@ -47,7 +47,7 @@ function addEvents () {
     setExpression('');
     setLeftOperand('');
     setRightOperand('');
-    setOperator(ADDITION);
+    setOperator('ADDITION');
     setResult('');
 
     previousResultsElement.innerHTML = '';
@@ -79,12 +79,12 @@ function setResult (value) {
   previousResultsElement.innerHTML = `
     ${previousResultsElement.innerHTML}
     ${
-    createResultHtml(
-      leftOperandElement.value,
-      rightOperandElement.value,
-      operatorElement.value,
-      value
-    )
+      createResultHtml(
+          leftOperandElement.value,
+          rightOperandElement.value,
+          operatorElement.value,
+          value
+      )
   }
   `
   setLeftOperand(value);
