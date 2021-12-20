@@ -43,7 +43,7 @@ function onSubmit () {
 
       console.log('onSubmit')
   }
-  setResult('')
+
 }
 
 function onClear () {
